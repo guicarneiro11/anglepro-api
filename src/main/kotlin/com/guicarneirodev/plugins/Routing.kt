@@ -84,9 +84,9 @@ private fun sendEmailWithPdf(to: String, pdfBytes: ByteArray) {
     email.hostName = "smtp.gmail.com"
     email.setSmtpPort(587)
     email.isStartTLSEnabled = true
-    email.setAuthentication("anglepro.sup@gmail.com", "dtvo miup fyfk nuvh")
+    email.setAuthentication("SEU EMAIL", "SUA SENHA")
 
-    email.setFrom("anglepro.sup@gmail.com")
+    email.setFrom("SEU EMAIL")
     email.addTo(to)
     email.subject = "Relatório do paciente"
     email.setMsg("Segue em anexo o relatório do paciente.")
